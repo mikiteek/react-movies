@@ -1,12 +1,12 @@
 import React, {Component} from "react";
 import {NavLink} from "react-router-dom";
-import Logo from "../../static/images/header/film.svg";
+import Logo from "../../static/images/header/icons/film.svg";
 import styles from "./Navigation.module.scss";
 
 class Navigation extends Component {
   render() {
     return (
-      <div className="container">
+      <div>
         <nav className={styles.nav}>
           <h1>
             <NavLink
