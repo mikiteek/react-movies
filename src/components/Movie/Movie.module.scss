@@ -1,0 +1,26 @@
+@import "Movie.variables";
+
+.imageBlock {
+  margin-bottom: 10px;
+}
+
+.image {
+  border-radius: 5px;
+  width: 280px;
+  height: 400px;
+  @media (min-width: 768px) {
+    width: 294px;
+  }
+  @media (min-width: 1024px) {
+    width: 274px;
+  }
+}
+
+.title {
+  @include movie-font-styles(#000, 14px);
+  margin-bottom: 5px;
+}
+
+.description {
+  @include movie-font-styles(#ff6b08, 16px);
+}
