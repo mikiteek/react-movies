@@ -1,11 +1,14 @@
 import React, {Component} from "react";
-import styles from "./Header.module.scss"
+import Navigation from "../Navigation/Navigation";
+import styles from "./Header.module.scss";
 
 class Header extends Component {
   render() {
-    const {wrapperStyles} = this.props;
     return (
-      <div className={wrapperStyles}>
+      <div className={styles.wrapperHome}>
+        <header className={styles.header}>
+          <Navigation/>
+        </header>
       </div>
     );
   }
