@@ -1,0 +1,18 @@
+@import "Header.variables";
+
+.wrapperHome {
+  background: $header-gradient, $header-home-bg-320-1x;
+  height: 230px;
+
+  @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background: $header-gradient, $header-home-bg-320-2x;
+  }
+}
+.wrapperLibruary {
+  background: $header-gradient, $header-library-bg-320-1x;
+  height: 230px;
+
+  @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background: $header-gradient, $header-library-bg-320-2x
+  }
+}
