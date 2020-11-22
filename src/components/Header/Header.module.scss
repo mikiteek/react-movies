@@ -1,5 +1,9 @@
 @import "Header.variables";
 
+.header {
+  padding-top: 41px;
+}
+
 .wrapperHome {
   background-image: $header-gradient, $header-home-bg-320-1x;
   @extend %wrapper-background;
