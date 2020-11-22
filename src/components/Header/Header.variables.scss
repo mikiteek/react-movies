@@ -14,3 +14,11 @@ $header-home-bg-1024-1x: url("../../static/images/header/header-home-bg-1024@1x.
 $header-home-bg-1024-2x: url("../../static/images/header/header-home-bg-1024@2x.png");
 $header-library-bg-1024-1x: url("../../static/images/header/header-library-bg-1024@1x.png");
 $header-library-bg-1024-2x: url("../../static/images/header/header-library-bg-1024@2x.png");
+
+
+%wrapper-background {
+  height: 230px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
