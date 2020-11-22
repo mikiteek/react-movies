@@ -1,0 +1,20 @@
+@import "SearchForm.variables";
+
+.searchInput {
+  display: block;
+  height: 20px;
+  padding-left: 5px;
+  margin-bottom: 22px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: solid 1px #fff;
+  @include form-font-styles(#fff);
+  &::placeholder {
+    @include form-font-styles(#fff);
+  }
+}
+
+.errorLabel {
+  @include form-font-styles(#ff001b);
+}
