@@ -1,6 +1,6 @@
-%searchInputFont {
+@mixin form-font-styles($color-font) {
   font-family: "Roboto", sans-serif;
-  color: #fff;
+  color: $color-font;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.2;
