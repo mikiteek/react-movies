@@ -1,0 +1,7 @@
+@mixin movie-font-styles($color-font, $line-height) {
+  font-family: "Roboto", sans-serif;
+  color: $color-font;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: $line-height;
+}
