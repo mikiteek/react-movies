@@ -1,0 +1,25 @@
+.sectionMovieDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.imageMovieBlock {
+  margin-bottom: 30px;
+}
+
+.image {
+  border-radius: 5px;
+  width: 280px;
+  height: 416px;
+  @media (min-width: 768px) {
+    width: 294px;
+  }
+  @media (min-width: 1024px) {
+    width: 426px;
+    height: 514px;
+  }
+}
+
+.title {
+
+}
